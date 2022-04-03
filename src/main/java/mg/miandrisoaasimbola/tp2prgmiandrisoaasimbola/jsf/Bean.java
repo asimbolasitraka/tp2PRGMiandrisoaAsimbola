@@ -36,6 +36,11 @@ public class Bean {
     }
     
     public String afficher() {
-    return "affichage_3?nb="+ nombre + "&amp;faces-redirect=true";
+        return "affichage_3?nb="+ nombre + "&amp;faces-redirect=true";
     }
+    
+    public String afficherFormulaire4() {
+        return "affichage_4?nb="+ nombre + "&amp;faces-redirect=true";
+    }
+    
 }
